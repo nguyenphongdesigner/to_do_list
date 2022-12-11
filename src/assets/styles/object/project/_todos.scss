@@ -1,0 +1,11 @@
+.p-jobs{
+    width: 1200px;
+    margin: 0 auto;
+    &__item{
+        margin-top: 40px;
+        font-size: 20px;
+        &:first-child{
+            margin-top: 0px;
+        }
+    }
+}
