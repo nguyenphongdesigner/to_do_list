@@ -1,11 +1,18 @@
-.p-jobs{
+.p-todo{
     width: 1200px;
     margin: 0 auto;
     &__item{
         margin-top: 40px;
-        font-size: 20px;
+        font-size: 25px;
         &:first-child{
             margin-top: 0px;
         }
+        input{
+            width: 20px;
+            height: 20px;
+        }
     }
+}
+.p-todo .is-completed{
+    text-decoration: line-through;
 }
